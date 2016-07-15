@@ -52,7 +52,7 @@
 /***/ function(module, exports, __webpack_require__) {
 
 	const Game = __webpack_require__(2);
-	const bindListeners = __webpack_require__(18);
+	const bindListeners = __webpack_require__(10);
 	
 	$(() => {
 	  const rootEl = document.getElementById('g-o-l');
@@ -340,7 +340,7 @@
 	  let width = this.ctx.canvas.width,
 	      height = this.ctx.canvas.height;
 	
-	  this.ctx.fillStyle = 'black';
+	  this.ctx.fillStyle = 'white';
 	  this.ctx.fillRect(width * -1, height * -1, width * 2, height * 2);
 	};
 	
@@ -582,15 +582,7 @@
 
 
 /***/ },
-/* 10 */,
-/* 11 */,
-/* 12 */,
-/* 13 */,
-/* 14 */,
-/* 15 */,
-/* 16 */,
-/* 17 */,
-/* 18 */
+/* 10 */
 /***/ function(module, exports, __webpack_require__) {
 
 	const Structure = __webpack_require__(6),
