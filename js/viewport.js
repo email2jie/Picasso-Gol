@@ -39,7 +39,7 @@ Viewport.prototype.clear = function () {
   let width = this.ctx.canvas.width,
       height = this.ctx.canvas.height;
 
-  this.ctx.fillStyle = 'black';
+  this.ctx.fillStyle = 'white';
   this.ctx.fillRect(width * -1, height * -1, width * 2, height * 2);
 };
 
